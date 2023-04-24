@@ -1,0 +1,347 @@
+* {
+    font-family: "Lato";
+}
+
+body {
+    height: 5000px;
+}
+
+/* Testing xtra */
+
+.space {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+/* Header */
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.header__nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header__nav .nav {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    font-family: "Lato";
+    font-weight: 700;
+}
+
+.header__logo img {
+    height: 75px;
+    width: 75px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 220px;
+    margin-left: 50px;;
+}
+
+.header__num {
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.header__num a {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    margin: 5px;
+    font-family: "Lato";
+}
+
+.header__nav a:hover {
+    /*color: #00423E;*/
+    color: #ff0000;
+}
+
+.header__nav-menu {
+    display: flex;
+    margin-top: 11px;
+}
+
+.ban-home {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+}
+
+.ban-home__txt {
+    padding-top: 130px;
+    padding-left: 130px;
+    padding-right: 75px;
+    background-color: #00423E;
+    color: white;
+    width: 50%;
+    height: 606px;
+}
+
+.ban-home__txt h3 {
+    font-weight: 300;
+
+}
+
+.ban-home__txt h1 {
+    font-size: 48px;
+}
+
+.ban-home__img {
+    background-color: #002c29;
+    width: 50%;
+}
+
+
+ button {
+    background-color: #ffffff00;
+    color: white;
+    border: white 2px solid ;
+    padding: 15px;
+
+}
+
+.header__space {
+    width: 25em;
+}
+
+/* Section asset */
+
+.ban-asset {
+   background-color: #fffaf5;
+   /* background-color: #ff0000;*/
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.ban-asset__art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.ban-asset--space {
+    margin-right: 55px;
+}
+
+.ban-asset__num {
+    font-size: 55px;
+    font-weight: 700;
+    color: #00423E;
+}
+
+.ban-asset__txt {
+    font-family: 'Lato';
+}
+
+
+/* Section concept */
+
+
+.sec-concept {
+    display: flex;
+    justify-content: center;
+    color: #00423E;
+    padding: 0px 250px 0px 250px;
+    margin-top: 150px;
+}
+
+.sec-concept__art {
+    border: #00423E 2px solid;
+    padding: 0px 25px 25px 25px;
+    width: 30%;
+    min-width: 250px;
+}
+
+.sec-concept__art:first-child {
+    margin-right: 75px;
+}
+
+
+.sec-concept__art h3 {
+    font-family: "Playfair display";
+    font-size: 35px;
+}
+
+.sec-concept__art h4 {
+    font-family: "Lato";
+    font-size: 20px;
+}
+
+
+.sec-concept__art p {
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+/* Section realisations */
+
+.sec-real {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-real__titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-real--aligner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sec-real__col {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    margin: 25px;
+}
+
+.sec-real__art {
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    margin: 25px;
+
+}
+
+.sec-real__btn-blc {
+    display: flex;
+    justify-content: center;
+}
+
+.sec-real__btn-blc a {
+    text-decoration: none;
+    color: white;
+    background-color: #00423E;
+    padding: 25px;
+    font-family: "Lato";
+    font-weight: 700;
+    margin: 55px;
+
+}
+
+/* Section : About us */
+
+.sec-about {
+    background-color: #fffaf5;
+}
+
+.sec-about--titles-aligner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-about--caroussel {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.sec-about__brand {
+    background-color: red;
+    margin: 25px;
+    height: 60px;
+    width: 60px;
+}
+
+/* Section : Pillars */
+
+.sec-pillars--titles-aligner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-pillars--art-aligner {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.sec-pillars__art {
+    background-color: #ff0000;
+    height: 60px;
+    width: 60px;
+    margin: 25px;
+}
+
+/* Section : Reviews */
+
+.sec-rev {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-rev--titles-aligner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section : Where */
+
+.sec-wh {
+    display: flex;
+    flex-direction: row;
+    background-color: #00423E;
+    color: white;
+    padding: 100px;
+}
+
+.sec-wh--infos-aligner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding: 25px;
+}
+
+.sec-wh--locations-aligner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+    padding: 0px 100px 0px 100px;
+    flex-wrap: wrap;
+}
+
+.sec-wh__art {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    line-height: 0;
+}
+
+/* Footer */
+
